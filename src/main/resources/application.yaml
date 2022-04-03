@@ -1,0 +1,7 @@
+bot:
+  token: 5055973993:AAGKY2nzzT6I_qVDzctxuoCUmZZI1GL75xg
+
+datasource:
+  url: jdbc:postgresql://localhost:5432/english_db
+  username: english
+  password: english
