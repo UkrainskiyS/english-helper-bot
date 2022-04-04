@@ -1,0 +1,11 @@
+version: '3'
+services:
+
+  postgres:
+    image: postgres
+    environment:
+      - POSTGRES_DB=english_db
+      - POSTGRES_USER=english
+      - POSTGRES_PASSWORD=english
+    ports:
+      - "5432:5432"
